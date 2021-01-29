@@ -1,0 +1,12 @@
+
+{ 
+    crc :  9398675257953509332  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 7bec9eb7aa0b4bd59474c9d63df659ae --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot AND_3_tb_behav xil_defaultlib.AND_3_tb" , 
+    buildDate : "Nov 18 2020" , 
+    buildTime : "09:20:35" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/AND_3_tb_behav/xsimk\"   \"xsim.dir/AND_3_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/AND_3_tb_behav/obj/xsim_1.lnx64.o\" -L\"/var/repo/Repo/vivado/pkg/vivado/opt/Xilinx/Vivado/2020.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
