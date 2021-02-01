@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Thu Jan 28 17:08:46 2021
+| Date         : Thu Jan 28 17:18:04 2021
 | Host         : KensComputer running 64-bit unknown
 | Command      : report_drc -file LAB0A_drc_routed.rpt -pb LAB0A_drc_routed.pb -rpx LAB0A_drc_routed.rpx
 | Design       : LAB0A

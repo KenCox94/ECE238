@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/codeDrive/ECE238/Lab0/LAB0A/LAB0A.srcs/sources_1/new/LAB0A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAB0A'
+INFO: [VRFC 10-163] Analyzing VHDL file "/codeDrive/ECE238/Lab0/LAB0A/LAB0A.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab0A_tb'

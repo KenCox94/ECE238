@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1611878835">
-  <File Type="VDS-TIMING-PB" Name="LAB0A_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="LAB0A_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="LAB0A.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="LAB0A_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="LAB0A_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="LAB0A_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="LAB0A.vds"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1611879350">
   <File Type="REPORTS-TCL" Name="LAB0A_reports.tcl"/>
   <File Type="PA-TCL" Name="LAB0A.tcl"/>
+  <File Type="RDS-DCP" Name="LAB0A.dcp"/>
+  <File Type="RDS-RDS" Name="LAB0A.vds"/>
+  <File Type="RDS-UTIL" Name="LAB0A_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="LAB0A_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/LAB0A.vhd">
@@ -43,9 +40,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

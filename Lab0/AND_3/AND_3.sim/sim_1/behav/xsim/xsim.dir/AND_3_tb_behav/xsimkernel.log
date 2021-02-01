@@ -1,4 +1,4 @@
-Running: xsim.dir/AND_3_tb_behav/xsimk -simmode gui -wdb AND_3_tb_behav.wdb -simrunnum 0 -socket 36277
+Running: xsim.dir/AND_3_tb_behav/xsimk -simmode gui -wdb AND_3_tb_behav.wdb -simrunnum 0 -socket 52361
 Design successfully loaded
 Design Loading Memory Usage: 33364 KB (Peak: 33364 KB)
 Design Loading CPU Usage: 40 ms

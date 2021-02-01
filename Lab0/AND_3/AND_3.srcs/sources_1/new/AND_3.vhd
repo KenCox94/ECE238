@@ -36,9 +36,9 @@ entity AND_3 is
            F : out STD_LOGIC);
 end AND_3;
 
-architecture Behavioral of AND_3 is
+architecture Boolean_Function of AND_3 is
 
 begin
     F <= A and B and C;  --Establish Logic 
 
-end Behavioral;
+end Boolean_Function;

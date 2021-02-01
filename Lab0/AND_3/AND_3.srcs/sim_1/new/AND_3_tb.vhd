@@ -40,7 +40,7 @@ architecture bench of AND_3_tb is
 component AND_3
   Port(A,B,C :in std_logic;
        F      :out std_logic);
- end component;
+end component;
  
  signal  A_tb, B_tb, C_tb :std_logic;
  signal  F_tb :std_logic;
@@ -65,5 +65,4 @@ component AND_3
     A_tb <= '0'; B_tb <= '0'; C_tb <= '0'; wait for 100 ns;
     wait;
   end process; 
-
 end bench;

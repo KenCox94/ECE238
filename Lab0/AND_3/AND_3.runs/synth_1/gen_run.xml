@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1611874405">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1612181134">
   <File Type="VDS-TIMING-PB" Name="AND_3_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="AND_3_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="AND_3.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="AND_3_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="AND_3_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="AND_3_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="AND_3.vds"/>
   <File Type="REPORTS-TCL" Name="AND_3_reports.tcl"/>
   <File Type="PA-TCL" Name="AND_3.tcl"/>
-  <File Type="RDS-RDS" Name="AND_3.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="AND_3_drc_synth.rpt"/>
-  <File Type="RDS-UTIL" Name="AND_3_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="AND_3_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/AND_3.vhd">
@@ -36,9 +36,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
