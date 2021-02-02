@@ -2,3 +2,6 @@ Running: xsim.dir/LAB0B_tb_behav/xsimk -simmode gui -wdb LAB0B_tb_behav.wdb -sim
 Design successfully loaded
 Design Loading Memory Usage: 33376 KB (Peak: 33496 KB)
 Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 115112 KB (Peak: 172644 KB)
+Simulation CPU Usage: 50 ms
