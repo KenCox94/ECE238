@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1612191621">
-  <File Type="VDS-TIMING-PB" Name="LAB0B_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="LAB0B_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="LAB0B.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="LAB0B_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="LAB0B_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="LAB0B_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="LAB0B.vds"/>
   <File Type="REPORTS-TCL" Name="LAB0B_reports.tcl"/>
   <File Type="PA-TCL" Name="LAB0B.tcl"/>
+  <File Type="RDS-DCP" Name="LAB0B.dcp"/>
+  <File Type="RDS-RDS" Name="LAB0B.vds"/>
+  <File Type="RDS-UTIL" Name="LAB0B_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="LAB0B_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/LAB0B.vhd">
