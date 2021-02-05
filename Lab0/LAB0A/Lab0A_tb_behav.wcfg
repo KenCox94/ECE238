@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab0A_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab0A_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999993fs"></ZoomStartTime>
+      <ZoomEndTime time="1000002fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="107"></NameColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject type="logic" fp_name="/Lab0A_tb/A_tb">
+      <obj_property name="ElementShortName">A_tb</obj_property>
+      <obj_property name="ObjectShortName">A_tb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Lab0A_tb/B_tb">
+      <obj_property name="ElementShortName">B_tb</obj_property>
+      <obj_property name="ObjectShortName">B_tb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Lab0A_tb/F_NOT_tb">
+      <obj_property name="ElementShortName">F_NOT_tb</obj_property>
+      <obj_property name="ObjectShortName">F_NOT_tb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Lab0A_tb/F_AND_tb">
+      <obj_property name="ElementShortName">F_AND_tb</obj_property>
+      <obj_property name="ObjectShortName">F_AND_tb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Lab0A_tb/F_OR_tb">
+      <obj_property name="ElementShortName">F_OR_tb</obj_property>
+      <obj_property name="ObjectShortName">F_OR_tb</obj_property>
+   </wvobject>
+</wave_config>

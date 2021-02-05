@@ -43,6 +43,6 @@ begin
 
   F_NOT <= A nand A;
   F_AND <= (A nand B) nand (A nand B); 
-  F_OR <= not (A nand A) nand not (B NAND B);
+  F_OR <=  (A nand A) nand (B NAND B);
   
 end Behavioral;
