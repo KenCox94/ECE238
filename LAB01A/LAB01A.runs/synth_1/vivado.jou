@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 11 16:39:36 2021
+# Process ID: 3314
+# Current directory: /codeDrive/ECE238/LAB01A/LAB01A.runs/synth_1
+# Command line: vivado -log Lab01A.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab01A.tcl
+# Log file: /codeDrive/ECE238/LAB01A/LAB01A.runs/synth_1/Lab01A.vds
+# Journal file: /codeDrive/ECE238/LAB01A/LAB01A.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Lab01A.tcl -notrace
