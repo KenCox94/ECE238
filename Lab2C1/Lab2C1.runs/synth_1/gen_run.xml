@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1615006928">
-  <File Type="VDS-TIMING-PB" Name="fourbitadder_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="fourbitadder_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="fourbitadder.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="fourbitadder_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="fourbitadder_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="fourbitadder_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="fourbitadder.vds"/>
-  <File Type="REPORTS-TCL" Name="fourbitadder_reports.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1615008933">
   <File Type="PA-TCL" Name="fourbitadder.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="fourbitadder_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="fourbitadder_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fourbitadder.vds"/>
+  <File Type="RDS-UTIL" Name="fourbitadder_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fourbitadder_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fourbitadder.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="fourbitadder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="fourbitadder_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/new/FullAdder.vhd">
@@ -44,9 +44,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

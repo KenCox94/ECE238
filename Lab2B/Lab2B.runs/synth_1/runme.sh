@@ -6,10 +6,14 @@
 # Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 # 
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
+exit
+
 if [ -z "$PATH" ]; then
-  PATH=/codeDrive/Repo/vivado/pkg/vivado/opt/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/lin64:/codeDrive/Repo/vivado/pkg/vivado/opt/Xilinx/Vivado/2020.2/bin
+  PATH=C:/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2020.2/bin
 else
-  PATH=/codeDrive/Repo/vivado/pkg/vivado/opt/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/lin64:/codeDrive/Repo/vivado/pkg/vivado/opt/Xilinx/Vivado/2020.2/bin:$PATH
+  PATH=C:/Xilinx/Vivado/2020.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2020.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2020.2/bin:$PATH
 fi
 export PATH
 
@@ -20,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/codeDrive/ECE238/Lab2B/Lab2B.runs/synth_1'
+HD_PWD='C:/Repo/ECE238/Lab2B/Lab2B.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log full_adder_vhdl_code.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_adder_vhdl_code.tcl
+EAStep vivado -log fulladder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fulladder.tcl

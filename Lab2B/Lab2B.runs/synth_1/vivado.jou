@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
 # Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Mar  5 21:33:14 2021
-# Process ID: 32288
-# Current directory: /codeDrive/ECE238/Lab2B/Lab2B.runs/synth_1
-# Command line: vivado -log full_adder_vhdl_code.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source full_adder_vhdl_code.tcl
-# Log file: /codeDrive/ECE238/Lab2B/Lab2B.runs/synth_1/full_adder_vhdl_code.vds
-# Journal file: /codeDrive/ECE238/Lab2B/Lab2B.runs/synth_1/vivado.jou
+# Start of session at: Fri Mar  5 22:30:16 2021
+# Process ID: 16844
+# Current directory: C:/Repo/ECE238/Lab2B/Lab2B.runs/synth_1
+# Command line: vivado.exe -log fulladder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fulladder.tcl
+# Log file: C:/Repo/ECE238/Lab2B/Lab2B.runs/synth_1/fulladder.vds
+# Journal file: C:/Repo/ECE238/Lab2B/Lab2B.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source full_adder_vhdl_code.tcl -notrace
+source fulladder.tcl -notrace

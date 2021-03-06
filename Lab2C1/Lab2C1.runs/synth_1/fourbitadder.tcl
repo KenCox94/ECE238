@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/codeDrive/ECE238/Lab2C1/Lab2C1.runs/synth_1/fourbitadder.tcl"
+  variable script "C:/Repo/ECE238/Lab2C1/Lab2C1.runs/synth_1/fourbitadder.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,24 +70,23 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /codeDrive/ECE238/Lab2C1/Lab2C1.cache/wt [current_project]
-set_property parent.project_path /codeDrive/ECE238/Lab2C1/Lab2C1.xpr [current_project]
+set_property webtalk.parent_dir C:/Repo/ECE238/Lab2C1/Lab2C1.cache/wt [current_project]
+set_property parent.project_path C:/Repo/ECE238/Lab2C1/Lab2C1.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo /codeDrive/ECE238/Lab2C1/Lab2C1.cache/ip [current_project]
+set_property ip_output_repo c:/Repo/ECE238/Lab2C1/Lab2C1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  /codeDrive/ECE238/Lab2C1/Lab2C1.srcs/sources_1/imports/new/FullAdder.vhd
-  /codeDrive/ECE238/Lab2C1/Lab2C1.srcs/sources_1/new/fourbitadder.vhd
+  C:/Repo/ECE238/Lab2C1/Lab2C1.srcs/sources_1/imports/new/FullAdder.vhd
+  C:/Repo/ECE238/Lab2C1/Lab2C1.srcs/sources_1/new/fourbitadder.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

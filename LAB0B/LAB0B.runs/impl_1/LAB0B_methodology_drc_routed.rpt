@@ -1,0 +1,40 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Feb  5 21:09:45 2021
+| Host         : GLDLBAE487199 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file LAB0B_methodology_drc_routed.rpt -pb LAB0B_methodology_drc_routed.pb -rpx LAB0B_methodology_drc_routed.rpx
+| Design       : LAB0B
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 1
++--------+----------+----------------------------------+------------+
+| Rule   | Severity | Description                      | Violations |
++--------+----------+----------------------------------+------------+
+| HPDR-1 | Warning  | Port pin direction inconsistency | 1          |
++--------+----------+----------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+HPDR-1#1 Warning
+Port pin direction inconsistency  
+Hierarchical port(pin) F_XOR direction INOUT is not consistent with the directions of the cell pins/ports found at that level of the netlist hierarchy. Please review the design and consider changing the port(pin) direction. Both drivers and loads were expected for the net (F_XOR) connected to this Port, but both were not found.
+Related violations: <none>
+
+

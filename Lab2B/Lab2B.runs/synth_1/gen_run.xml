@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1615005191">
-  <File Type="VDS-TIMING-PB" Name="full_adder_vhdl_code_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="full_adder_vhdl_code_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="full_adder_vhdl_code.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="full_adder_vhdl_code_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="full_adder_vhdl_code_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="full_adder_vhdl_code_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="full_adder_vhdl_code.vds"/>
-  <File Type="REPORTS-TCL" Name="full_adder_vhdl_code_reports.tcl"/>
-  <File Type="PA-TCL" Name="full_adder_vhdl_code.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1615008613">
+  <File Type="PA-TCL" Name="fulladder.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="fulladder_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="fulladder_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fulladder.vds"/>
+  <File Type="RDS-UTIL" Name="fulladder_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fulladder_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fulladder.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="fulladder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="fulladder_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/FullAdder.vhd">
@@ -26,7 +26,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="full_adder_vhdl_code"/>
+      <Option Name="TopModule" Val="fulladder"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>

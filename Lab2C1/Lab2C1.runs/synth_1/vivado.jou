@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
 # Vivado v2020.2 (64-bit)
-# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Mar  5 22:02:10 2021
-# Process ID: 46236
-# Current directory: /codeDrive/ECE238/Lab2C1/Lab2C1.runs/synth_1
-# Command line: vivado -log fourbitadder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fourbitadder.tcl
-# Log file: /codeDrive/ECE238/Lab2C1/Lab2C1.runs/synth_1/fourbitadder.vds
-# Journal file: /codeDrive/ECE238/Lab2C1/Lab2C1.runs/synth_1/vivado.jou
+# Start of session at: Fri Mar  5 22:35:36 2021
+# Process ID: 21532
+# Current directory: C:/Repo/ECE238/Lab2C1/Lab2C1.runs/synth_1
+# Command line: vivado.exe -log fourbitadder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fourbitadder.tcl
+# Log file: C:/Repo/ECE238/Lab2C1/Lab2C1.runs/synth_1/fourbitadder.vds
+# Journal file: C:/Repo/ECE238/Lab2C1/Lab2C1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source fourbitadder.tcl -notrace
