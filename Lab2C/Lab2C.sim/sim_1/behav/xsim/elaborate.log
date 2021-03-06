@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /codeDrive/Repo/vivado/pkg/vivado/opt/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto 620b9254dfd840699293b53420487899 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Tb_4_Adder_behav xil_defaultlib.Tb_4_Adder -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <FullAdder>.  Please compare the definition of block <FullAdder> to its component declaration and its instantion to detect the mismatch. [/codeDrive/ECE238/Lab2C/Lab2C.srcs/sources_1/new/4bitadder.vhd:16]
+ERROR: [VRFC 10-718] formal port <b> does not exist in entity <FullAdder>.  Please compare the definition of block <FullAdder> to its component declaration and its instantion to detect the mismatch. [/codeDrive/ECE238/Lab2C/Lab2C.srcs/sources_1/new/4bitadder.vhd:17]
+ERROR: [VRFC 10-718] formal port <cin> does not exist in entity <FullAdder>.  Please compare the definition of block <FullAdder> to its component declaration and its instantion to detect the mismatch. [/codeDrive/ECE238/Lab2C/Lab2C.srcs/sources_1/new/4bitadder.vhd:18]
+ERROR: [VRFC 10-718] formal port <sum> does not exist in entity <FullAdder>.  Please compare the definition of block <FullAdder> to its component declaration and its instantion to detect the mismatch. [/codeDrive/ECE238/Lab2C/Lab2C.srcs/sources_1/new/4bitadder.vhd:19]
+ERROR: [VRFC 10-718] formal port <cout> does not exist in entity <FullAdder>.  Please compare the definition of block <FullAdder> to its component declaration and its instantion to detect the mismatch. [/codeDrive/ECE238/Lab2C/Lab2C.srcs/sources_1/new/4bitadder.vhd:20]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_4_adder in library work failed.
