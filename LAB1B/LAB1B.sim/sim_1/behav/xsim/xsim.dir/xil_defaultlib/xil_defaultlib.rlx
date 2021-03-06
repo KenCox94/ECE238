@@ -2,4 +2,6 @@
 2020.2
 Nov 18 2020
 09:20:35
-/codeDrive/ECE238/LAB1B/LAB1B.srcs/sources_1/new/LAB1B.vhd,1613088973,vhdl,,,,lab1b,,,,,,,,
+/codeDrive/ECE238/LAB1B/LAB1B.srcs/sim_1/new/bench.vhd,1613689104,vhdl,,,,,,,,,,,,
+/codeDrive/ECE238/LAB1B/LAB1B.srcs/sim_1/new/tb.vhd,1613689039,vhdl,,,,,,,,,,,,
+/codeDrive/ECE238/LAB1B/LAB1B.srcs/sources_1/new/LAB1B.vhd,1613088973,vhdl,/codeDrive/ECE238/LAB1B/LAB1B.srcs/sim_1/new/bench.vhd;/codeDrive/ECE238/LAB1B/LAB1B.srcs/sim_1/new/tb.vhd,,,lab1b,,,,,,,,

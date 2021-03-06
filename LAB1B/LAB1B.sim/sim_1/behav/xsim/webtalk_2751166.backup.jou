@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb 16 07:45:15 2021
+# Process ID: 2751166
+# Current directory: /codeDrive/ECE238/LAB1B/LAB1B.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /codeDrive/ECE238/LAB1B/LAB1B.sim/sim_1/behav/xsim/xsim.dir/LAB1B_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /codeDrive/ECE238/LAB1B/LAB1B.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /codeDrive/ECE238/LAB1B/LAB1B.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /codeDrive/ECE238/LAB1B/LAB1B.sim/sim_1/behav/xsim/xsim.dir/LAB1B_behav/webtalk/xsim_webtalk.tcl -notrace
