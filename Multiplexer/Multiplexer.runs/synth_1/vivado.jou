@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 26 20:40:44 2021
+# Process ID: 15540
+# Current directory: C:/Repo/ECE238/Multiplexer/Multiplexer.runs/synth_1
+# Command line: vivado.exe -log Multiplexer_8_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplexer_8_1.tcl
+# Log file: C:/Repo/ECE238/Multiplexer/Multiplexer.runs/synth_1/Multiplexer_8_1.vds
+# Journal file: C:/Repo/ECE238/Multiplexer/Multiplexer.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Multiplexer_8_1.tcl -notrace

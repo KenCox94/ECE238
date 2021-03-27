@@ -37,7 +37,7 @@
 %	DOCUMENT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\title{Lab Report 2 \\ Half, Full and 4 Bit Adders \\ECE 238L \\} % Title
+\title{Lab Report 3 \\ Multiplexer and Decoder \\ ECE 238L \\} % Title
 \author{Kenneth Cox}
 \date{\today} % Date for the report
 
@@ -47,7 +47,7 @@
 
 \begin{center}
 \begin{tabular}{l r}
-Date Performed: &Feb 18, 2021 \\ % Date the experiment was performed
+Date Performed: & Mar 26, 2021 \\ % Date the experiment was performed
 Instructor: & Professor Hamke % Instructor/supervisor
 \end{tabular}
 \end{center}
@@ -73,9 +73,10 @@ Instructor: & Professor Hamke % Instructor/supervisor
 \section{Items}
 
 \begin{description}
-\item[Half Adder]
-\item[Full Adder]
-\item[4 Bit Adder]
+\item[Gates]
+\item[Multiplexer]
+\item[7 Segment Display]
+\item[Top Level Module]
 \end{description} 
  
 %----------------------------------------------------------------------------------------
@@ -85,21 +86,21 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{halfaddSource.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{GatesSource.png} % Include the image placeholder.png
 \caption{source}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{halfAddTest.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{GatesTestSource.png} % Include the image placeholder.png
 \caption{test bench}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{halfaddSchematic.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{GatesSchematic.png} % Include the image placeholder.png
 \caption{Schematic}
 \end{center}
 \end{figure}
@@ -107,7 +108,7 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{halfaddTruthTable.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{GatesTruthTable.png} % Include the image placeholder.png
 \caption{Truth Table}
 \end{center}
 \end{figure}
@@ -115,15 +116,51 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{halfaddTruthTable1.png} % Include the image placeholder.png
-\caption{Truth Table cont.}
+\includegraphics[width=1\textwidth]{GatesTruthTableCont.png} % Include the image placeholder.png
+\caption{Truth Table}
 \end{center}
 \end{figure}
 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{halfaddWaveForm.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{GatesTruthTableCont1.png} % Include the image placeholder.png
+\caption{Truth Table}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{GatesTruthTableCont2.png} % Include the image placeholder.png
+\caption{Truth Table}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{GatesTruthTableCont3.png} % Include the image placeholder.png
+\caption{Truth Table}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{GatesTruthTableCont4.png} % Include the image placeholder.png
+\caption{Truth Table}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{GatesTruthTableCont6.png} % Include the image placeholder.png
+\caption{Truth Table}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{GatesWaveForm.png} % Include the image placeholder.png
 \caption{Truth Table}
 \end{center}
 \end{figure}
@@ -133,21 +170,21 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fullAdderSource.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{MultiplexerSource.png} % Include the image placeholder.png
 \caption{source}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fullAdderTest.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{MultiplexerTestSource.png} % Include the image placeholder.png
 \caption{test bench}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fullAdderSchematic.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{MultiplexerSchematic.png} % Include the image placeholder.png
 \caption{Schematic}
 \end{center}
 \end{figure}
@@ -155,7 +192,7 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fullAdderTruthTable.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{MultiplexerTruthTable.png} % Include the image placeholder.png
 \caption{Truth Table}
 \end{center}
 \end{figure}
@@ -163,7 +200,7 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fullAdderTruthTable1.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{MultiplexerTruthTableCont.png} % Include the image placeholder.png
 \caption{Truth Table cont.}
 \end{center}
 \end{figure}
@@ -171,8 +208,8 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fullAdderWaveForm.png} % Include the image placeholder.png
-\caption{Truth Table}
+\includegraphics[width=1\textwidth]{MultiplexerWaveForm.png} % Include the image placeholder.png
+\caption{Waveform}
 \end{center}
 \end{figure}
 
@@ -183,21 +220,21 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderSource.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{DisplaySource.png} % Include the image placeholder.png
 \caption{source}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTest.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{DisplayTestSource.png} % Include the image placeholder.png
 \caption{test bench}
 \end{center}
 \end{figure}
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderSchematic.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{DisplaySchematic.png} % Include the image placeholder.png
 \caption{Schematic}
 \end{center}
 \end{figure}
@@ -205,7 +242,7 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTruth.png} % Include the image placeholder.png
+\includegraphics[width=1\textwidth]{DisplayTruthTable.png} % Include the image placeholder.png
 \caption{Truth Table}
 \end{center}
 \end{figure}
@@ -213,56 +250,60 @@ Instructor: & Professor Hamke % Instructor/supervisor
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTruth1.png} % Include the image placeholder.png
-\caption{Truth Table cont.}
+\includegraphics[width=1\textwidth]{DisplayWaveForm.png} % Include the image placeholder.png
+\caption{Wavefrom}
 \end{center}
 \end{figure}
 
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTruth2.png} % Include the image placeholder.png
-\caption{Truth Table}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTruth3.png} % Include the image placeholder.png
-\caption{Truth Table cont.}
-\end{center}
-\end{figure}
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTruth4.png} % Include the image placeholder.png
-\caption{Truth Table}
-\end{center}
-\end{figure}
-
-
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderTruth4.png} % Include the image placeholder.png
-\caption{Truth Table}
-\end{center}
-\end{figure}
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=1\textwidth]{fourBitAdderWaveForm.png} % Include the image placeholder.png
-\caption{Truth Table}
-\end{center}
-\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 5
 %----------------------------------------------------------------------------------------
 
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{DecoderSource.png} % Include the image placeholder.png
+\caption{source}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{DecoderTestSource.png} % Include the image placeholder.png
+\caption{test bench}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{DecoderSchematic.png} % Include the image placeholder.png
+\caption{Schematic}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{DecoderTruthTable.png} % Include the image placeholder.png
+\caption{Truth Table}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1\textwidth]{DecoderWaveForm.png} % Include the image placeholder.png
+\caption{Decoder Wave}
+\end{center}
+\end{figure} 
+%----------------------------------------------------------------------------------------
+%	SECTION 6
+%----------------------------------------------------------------------------------------
+
 \section{Feedback}
-The VHDL Videos in the lab assignments folder really helped me refactor this code. It was probably the most useful resource on VHDL I have come across
+Initially, on my first attempt at this lab it was, at least the Decoder, somewhat confusing.
+
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

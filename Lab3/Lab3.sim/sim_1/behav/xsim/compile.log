@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Repo/ECE238/Display/Display.srcs/sources_1/new/Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DispDigit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Repo/ECE238/Gates/Gates.srcs/sources_1/new/Gates.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gates'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Repo/ECE238/Lab3/Lab3.srcs/sources_1/new/Lab3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Repo/ECE238/Multiplexer/Multiplexer.srcs/sources_1/new/Multiplexer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Multiplexer_8_1'

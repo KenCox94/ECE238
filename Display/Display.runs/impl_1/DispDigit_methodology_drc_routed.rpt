@@ -1,0 +1,154 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Mar 26 21:44:32 2021
+| Host         : GLDLBAE487199 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file DispDigit_methodology_drc_routed.rpt -pb DispDigit_methodology_drc_routed.pb -rpx DispDigit_methodology_drc_routed.rpx
+| Design       : DispDigit
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_DispDigit
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 17
++--------+----------+-------------------------------------------------+------------+
+| Rule   | Severity | Description                                     | Violations |
++--------+----------+-------------------------------------------------+------------+
+| XDCC-5 | Warning  | User Non-Timing constraint/property overwritten | 17         |
++--------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCC-5#1 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[0] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 8)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 8)
+Related violations: <none>
+
+XDCC-5#2 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[1] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 7)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 7)
+Related violations: <none>
+
+XDCC-5#3 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[2] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 6)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 6)
+Related violations: <none>
+
+XDCC-5#4 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[3] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 5)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 5)
+Related violations: <none>
+
+XDCC-5#5 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[4] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 4)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 4)
+Related violations: <none>
+
+XDCC-5#6 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[5] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 3)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 3)
+Related violations: <none>
+
+XDCC-5#7 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[6] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 2)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 2)
+Related violations: <none>
+
+XDCC-5#8 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on anode_7sd[7] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 1)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 1)
+Related violations: <none>
+
+XDCC-5#9 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[0] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 16)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 16)
+Related violations: <none>
+
+XDCC-5#10 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[1] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 15)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 15)
+Related violations: <none>
+
+XDCC-5#11 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[2] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 14)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 14)
+Related violations: <none>
+
+XDCC-5#12 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[3] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 13)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 13)
+Related violations: <none>
+
+XDCC-5#13 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[4] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 12)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 12)
+Related violations: <none>
+
+XDCC-5#14 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[5] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 11)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 11)
+Related violations: <none>
+
+XDCC-5#15 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[6] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 10)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 10)
+Related violations: <none>
+
+XDCC-5#16 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on cathode_7sd[7] overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 9)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 9)
+Related violations: <none>
+
+XDCC-5#17 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on mux_out overrides a previous user property.
+New Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 17)
+Previous Source: C:/Repo/ECE238/Display/Display.srcs/constrs_1/new/constrs.xdc (Line: 17)
+Related violations: <none>
+
+

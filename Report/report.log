@@ -1,80 +1,154 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.5)  5 MAR 2021 23:30
-entering extended mode
-**./report.tex
-(report.tex
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.12) (format=lualatex 2021.3.27)  27 MAR 2021 06:59
+ restricted system commands enabled.
+**report.tex
+(./report.tex
 LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-12-07> xparse <2020-03-03>
-("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Lua module: luaotfload-main 2020-09-02 3.15 luaotfload entry point
+Lua module: luaotfload-init 2020-09-02 3.15 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2020-08-31 2.72 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-08-31 2.72 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2020-09-02 3.15 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-09-02 3.15 luaotfload submodule / parsers
+Lua module: luaotfload-configuration 2020-09-02 3.15 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is "C:/Users/Kenneth.Cox/AppData/Local/
+MiKTeX/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2020-08-31.lua" from kpse-res
+olved path "C:/Program Files/MiKTeX/tex/luatex/luaotfload/fontloader-2020-08-31.
+lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
+Lua module: luaotfload-fallback 2020-09-02 3.15 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-09-02 3.15 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-09-02 3.15 luaotfload submodule / Script help
+ers
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Lua module: luaotfload-loaders 2020-09-02 3.15 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-09-02 3.15 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-09-02 3.15 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2020-09-02 3.15 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 3
+Lua module: luaotfload-resolvers 2020-09-02 3.15 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is "C:/Users/Kenneth.Cox/AppData/Local/
+MiKTeX/luatex-cache/generic/names".
+Lua module: luaotfload-features 2020-09-02 3.15 luaotfload submodule / features
+Lua module: luaotfload-harf-define 2020-09-02 3.15 luaotfload submodule / HarfBu
+zz font loading
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Lua module: luaotfload-harf-plug 2020-09-02 3.15 luaotfload submodule / HarfBuzz
+ shaping
+Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'
+.
+Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
+Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
+Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
+Lua module: luaotfload-letterspace 2020-09-02 3.15 luaotfload submodule / letter
+spacing
+Lua module: luaotfload-embolden 2020-09-02 3.15 luaotfload submodule / embolden
+Lua module: luaotfload-notdef 2020-09-02 3.15 luaotfload submodule / notdef
+Lua module: luaotfload-suppress 2020-09-02 3.15 luaotfload submodule / suppress
+Lua module: luaotfload-szss 2020-09-02 3.15 luaotfload submodule / Special featu
+re handling
+Lua module: luaotfload-auxiliary 2020-09-02 3.15 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-tounicode 2020-09-02 3.15 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2020-12-07> xparse <2020-03-03>
+("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
-)
-\c@part=\count177
-\c@section=\count178
-\c@subsection=\count179
-\c@subsubsection=\count180
-\c@paragraph=\count181
-\c@subparagraph=\count182
-\c@figure=\count183
-\c@table=\count184
+luaotfload | db : Font names database loaded from C:/Users/Kenneth.Cox/AppData/L
+ocal/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/mhchem\mhchem.sty
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 
-("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
 Package: expl3 2020-12-07 L3 programming layer (loader) 
 
-("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count185
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def"
+File: l3backend-luatex.def 2020-09-24 L3 backend support: PDF output (LuaTeX)
+\l__kernel_color_stack_int=\count181
 \l__pdf_internal_box=\box47
 ))
-("C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty"
 Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
-("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count186
-\calc@Bcount=\count187
+\calc@Acount=\count182
+\calc@Bcount=\count183
 \calc@Adimen=\dimen139
 \calc@Bdimen=\dimen140
 \calc@Askip=\skip49
 \calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count188
+\calc@Ccount=\count184
 \calc@Cskip=\skip51
 )
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsmath.sty"
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen141
 ))
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen142
 )
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count189
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count190
-\leftroot@=\count191
+\inf@bad=\count185
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count186
+\leftroot@=\count187
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count192
-\DOTSCASE@=\count193
+\classnum@=\count188
+\DOTSCASE@=\count189
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -83,15 +157,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count194
-\c@MaxMatrixCols=\count195
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
 \dotsspace@=\muskip16
-\c@parentequation=\count196
-\dspbrk@lvl=\count197
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
 \tag@help=\toks16
-\row@=\count198
-\column@=\count199
-\maxfields@=\count266
+\row@=\count194
+\column@=\count195
+\maxfields@=\count196
 \andhelp@=\toks17
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
@@ -106,31 +180,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/chemgreek\chemgreek.sty
-("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/chemgreek/chemgreek.sty
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
 Package: xparse 2020-10-27 L3 Experimental document command parser
 
-("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
-Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
- in chemistry (CN)
-\l__chemgreek_tmpa_int=\count267
-\g__chemgreek_tmpa_int=\count268
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse-generic.tex"))
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
+in chemistry (CN)
+\l__chemgreek_tmpa_int=\count197
+\g__chemgreek_tmpa_int=\count198
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: luatex.def on input line 105.
 
-("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
 ))
-\l__mhchem_ce_distanceFromLastComma_int=\count269
+\l__mhchem_ce_distanceFromLastComma_int=\count199
 \__mhchem_arrow_extPgfLength_skip=\skip55
 \mhchem@minispace@tmp=\skip56
 \mhchem@minibackspace@tmp=\skip57
@@ -141,16 +215,16 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \mhchem@smallbondwidth=\skip62
 \mhchem@bondtmp@minussidebearingleft=\skip63
 \mhchem@bondtmp@minussidebearingright=\skip64
-\l__mhchem_option_version_int=\count270
+\l__mhchem_option_version_int=\count266
 \mhchem@option@minusmathsidebearingleft=\dimen150
 \mhchem@option@minusmathsidebearingright=\dimen151
 \mhchem@option@minustextsidebearingleft=\dimen152
 \mhchem@option@minustextsidebearingright=\dimen153
 )
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 
-("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen154
 \ar@mcellbox=\box50
@@ -162,27 +236,27 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 )
 \l__siunitx_tmp_box=\box52
 \l__siunitx_tmp_dim=\dimen156
-\l__siunitx_tmp_int=\count271
-\l__siunitx_number_mantissa_length_int=\count272
-\l__siunitx_number_uncert_length_int=\count273
-\l__siunitx_round_int=\count274
-\l__siunitx_process_decimal_int=\count275
-\l__siunitx_process_uncertainty_int=\count276
-\l__siunitx_process_fixed_int=\count277
-\l__siunitx_process_integer_min_int=\count278
-\l__siunitx_process_precision_int=\count279
-\l__siunitx_group_min_int=\count280
+\l__siunitx_tmp_int=\count267
+\l__siunitx_number_mantissa_length_int=\count268
+\l__siunitx_number_uncert_length_int=\count269
+\l__siunitx_round_int=\count270
+\l__siunitx_process_decimal_int=\count271
+\l__siunitx_process_uncertainty_int=\count272
+\l__siunitx_process_fixed_int=\count273
+\l__siunitx_process_integer_min_int=\count274
+\l__siunitx_process_precision_int=\count275
+\l__siunitx_group_min_int=\count276
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
 \l__siunitx_angle_marker_dim=\dimen157
 \l__siunitx_angle_unit_dim=\dimen158
-\l__siunitx_unit_int=\count281
-\l__siunitx_unit_denominator_int=\count282
-\l__siunitx_unit_numerator_int=\count283
-\l__siunitx_unit_prefix_int=\count284
-\l__siunitx_unit_prefix_base_int=\count285
-\l__siunitx_unit_prefix_gram_int=\count286
-\l__siunitx_number_product_int=\count287
+\l__siunitx_unit_int=\count277
+\l__siunitx_unit_denominator_int=\count278
+\l__siunitx_unit_numerator_int=\count279
+\l__siunitx_unit_prefix_int=\count280
+\l__siunitx_unit_prefix_base_int=\count281
+\l__siunitx_unit_prefix_gram_int=\count282
+\l__siunitx_number_product_int=\count283
 \c__siunitx_one_fill_skip=\skip67
 \l__siunitx_table_unit_align_skip=\skip68
 \l__siunitx_table_exponent_dim=\dimen159
@@ -201,27 +275,27 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \l__siunitx_table_number_align_skip=\skip69
 \l__siunitx_table_text_align_skip=\skip70
 
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/translator\translator.st
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/translator/translator.st
 y
 Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
- ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+ ("C:/Program Files/MiKTeX/tex/latex/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )))
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen168
 \Gin@req@width=\dimen169
 )
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip71
 \bibsep=\skip72
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count288
+\c@NAT@ctr=\count284
 )
-(report.aux)
-\openout1 = `report.aux'.
+(./report.aux)
+\openout1 = report.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -232,6 +306,13 @@ LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 44
+.
+ ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -240,209 +321,256 @@ LaTeX Font Info:    ... okay on input line 44.
 
 Package chemgreek Info: Activating mapping `default' on line 44.
 
- ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+
+("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
+\scratchcounter=\count285
 \scratchdimen=\dimen170
 \scratchbox=\box59
-\nofMPsegments=\count290
-\nofMParguments=\count291
+\nofMPsegments=\count286
+\nofMParguments=\count287
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count292
+\MPscratchCnt=\count288
 \MPscratchDim=\dimen171
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
 \everyMPtoPDFconversion=\toks23
-) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
+5.
 )
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/siunitx\siunitx-abbrevia
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx-abbrevia
 tions.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/translator\translator-ba
+(C:/Users/Kenneth.Cox/AppData/Roaming/MiKTeX/tex/latex/translator/translator-ba
 sic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-! I can't write on file `report.pdf'.
-Please type another file name for output: reportRedo
-<halfaddSource.png, id=1, 333.49594pt x 263.48438pt>
-File: halfaddSource.png Graphic file (type png)
-<use halfaddSource.png>
-Package pdftex.def Info: halfaddSource.png  used on input line 88.
-(pdftex.def)             Requested size: 345.0pt x 272.59404pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<halfAddTest.png, id=3, 299.61937pt x 381.67593pt>
-File: halfAddTest.png Graphic file (type png)
-<use halfAddTest.png>
-Package pdftex.def Info: halfAddTest.png  used on input line 95.
-(pdftex.def)             Requested size: 345.0pt x 439.51796pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<halfaddSchematic.png, id=4, 923.70094pt x 351.56343pt>
-File: halfaddSchematic.png Graphic file (type png)
-<use halfaddSchematic.png>
-Package pdftex.def Info: halfaddSchematic.png  used on input line 102.
-(pdftex.def)             Requested size: 345.0pt x 131.30487pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<halfaddTruthTable.png, id=5, 115.93312pt x 160.34906pt>
-File: halfaddTruthTable.png Graphic file (type png)
-<use halfaddTruthTable.png>
-Package pdftex.def Info: halfaddTruthTable.png  used on input line 110.
-(pdftex.def)             Requested size: 345.0pt x 477.28291pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<halfaddTruthTable1.png, id=6, 154.32657pt x 158.09062pt>
-File: halfaddTruthTable1.png Graphic file (type png)
-<use halfaddTruthTable1.png>
-Package pdftex.def Info: halfaddTruthTable1.png  used on input line 118.
-(pdftex.def)             Requested size: 345.0pt x 353.44511pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<halfaddWaveForm.png, id=7, 781.41937pt x 171.64125pt>
-File: halfaddWaveForm.png Graphic file (type png)
-<use halfaddWaveForm.png>
-Package pdftex.def Info: halfaddWaveForm.png  used on input line 126.
-(pdftex.def)             Requested size: 345.0pt x 75.77904pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fullAdderSource.png, id=8, 420.82219pt x 283.0575pt>
-File: fullAdderSource.png Graphic file (type png)
-<use fullAdderSource.png>
-Package pdftex.def Info: fullAdderSource.png  used on input line 136.
-(pdftex.def)             Requested size: 345.0pt x 232.06113pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fullAdderTest.png, id=9, 442.65375pt x 615.0478pt>
-File: fullAdderTest.png Graphic file (type png)
-<use fullAdderTest.png>
-Package pdftex.def Info: fullAdderTest.png  used on input line 143.
-(pdftex.def)             Requested size: 345.0pt x 479.38812pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fullAdderSchematic.png, id=10, 891.33pt x 352.31625pt>
-File: fullAdderSchematic.png Graphic file (type png)
-<use fullAdderSchematic.png>
-Package pdftex.def Info: fullAdderSchematic.png  used on input line 150.
-(pdftex.def)             Requested size: 345.0pt x 136.36523pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fullAdderTruthTable.png, id=11, 258.21469pt x 222.8325pt>
-File: fullAdderTruthTable.png Graphic file (type png)
-<use fullAdderTruthTable.png>
-Package pdftex.def Info: fullAdderTruthTable.png  used on input line 158.
-(pdftex.def)             Requested size: 345.0pt x 297.75417pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fullAdderTruthTable1.png, id=12, 211.54031pt x 213.04594pt>
-File: fullAdderTruthTable1.png Graphic file (type png)
-<use fullAdderTruthTable1.png>
-Package pdftex.def Info: fullAdderTruthTable1.png  used on input line 166.
-(pdftex.def)             Requested size: 345.0pt x 347.4666pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fullAdderWaveForm.png, id=13, 785.18344pt x 157.33781pt>
-File: fullAdderWaveForm.png Graphic file (type png)
-<use fullAdderWaveForm.png>
-Package pdftex.def Info: fullAdderWaveForm.png  used on input line 174.
-(pdftex.def)             Requested size: 345.0pt x 69.13281pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fourBitAdderSource.png, id=14, 465.99094pt x 441.90094pt>
-File: fourBitAdderSource.png Graphic file (type png)
-<use fourBitAdderSource.png>
-Package pdftex.def Info: fourBitAdderSource.png  used on input line 186.
-(pdftex.def)             Requested size: 345.0pt x 327.17688pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fourBitAdderTest.png, id=15, 402.75468pt x 682.04813pt>
-File: fourBitAdderTest.png Graphic file (type png)
-<use fourBitAdderTest.png>
-Package pdftex.def Info: fourBitAdderTest.png  used on input line 193.
-(pdftex.def)             Requested size: 345.0pt x 584.23956pt.
-
-LaTeX Warning: Float too large for page by 68.184pt on input line 196.
+<GatesSource.png, id=1, 385.44pt x 414.04688pt>
+File: GatesSource.png Graphic file (type png)
+<use GatesSource.png>
+Package luatex.def Info: GatesSource.png  used on input line 89.
+(luatex.def)             Requested size: 345.0pt x 370.60439pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderSchematic.png, id=16, 859.71187pt x 398.23781pt>
-File: fourBitAdderSchematic.png Graphic file (type png)
-<use fourBitAdderSchematic.png>
-Package pdftex.def Info: fourBitAdderSchematic.png  used on input line 200.
-(pdftex.def)             Requested size: 345.0pt x 159.81488pt.
+<GatesTestSource.png, id=2, 387.69844pt x 519.44063pt>
+File: GatesTestSource.png Graphic file (type png)
+<use GatesTestSource.png>
+Package luatex.def Info: GatesTestSource.png  used on input line 96.
+(luatex.def)             Requested size: 345.0pt x 462.2373pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderTruth.png, id=17, 618.81187pt x 621.07031pt>
-File: fourBitAdderTruth.png Graphic file (type png)
-<use fourBitAdderTruth.png>
-Package pdftex.def Info: fourBitAdderTruth.png  used on input line 208.
-(pdftex.def)             Requested size: 345.0pt x 346.27124pt.
+<GatesSchematic.png, id=3, 831.85782pt x 628.59843pt>
+File: GatesSchematic.png Graphic file (type png)
+<use GatesSchematic.png>
+Package luatex.def Info: GatesSchematic.png  used on input line 103.
+(luatex.def)             Requested size: 345.0pt x 260.70042pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderTruth1.png, id=18, 1044.15094pt x 627.09282pt>
-File: fourBitAdderTruth1.png Graphic file (type png)
-<use fourBitAdderTruth1.png>
-Package pdftex.def Info: fourBitAdderTruth1.png  used on input line 216.
-(pdftex.def)             Requested size: 345.0pt x 207.19962pt.
+<GatesTruthTable.png, id=4, 137.01187pt x 88.07906pt>
+File: GatesTruthTable.png Graphic file (type png)
+<use GatesTruthTable.png>
+Package luatex.def Info: GatesTruthTable.png  used on input line 111.
+(luatex.def)             Requested size: 345.0pt x 221.80312pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderTruth2.png, id=19, 319.1925pt x 212.29312pt>
-File: fourBitAdderTruth2.png Graphic file (type png)
-<use fourBitAdderTruth2.png>
-Package pdftex.def Info: fourBitAdderTruth2.png  used on input line 224.
-(pdftex.def)             Requested size: 345.0pt x 229.4578pt.
+<GatesTruthTableCont.png, id=5, 134.00063pt x 114.4275pt>
+File: GatesTruthTableCont.png Graphic file (type png)
+<use GatesTruthTableCont.png>
+Package luatex.def Info: GatesTruthTableCont.png  used on input line 119.
+(luatex.def)             Requested size: 345.0pt x 294.60608pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderTruth3.png, id=20, 1042.64531pt x 619.56468pt>
-File: fourBitAdderTruth3.png Graphic file (type png)
-<use fourBitAdderTruth3.png>
-Package pdftex.def Info: fourBitAdderTruth3.png  used on input line 232.
-(pdftex.def)             Requested size: 345.0pt x 205.0053pt.
+<GatesTruthTableCont1.png, id=6, 128.73094pt x 115.18031pt>
+File: GatesTruthTableCont1.png Graphic file (type png)
+<use GatesTruthTableCont1.png>
+Package luatex.def Info: GatesTruthTableCont1.png  used on input line 127.
+(luatex.def)             Requested size: 345.0pt x 308.71144pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderTruth4.png, id=21, 307.90031pt x 218.31563pt>
-File: fourBitAdderTruth4.png Graphic file (type png)
-<use fourBitAdderTruth4.png>
-Package pdftex.def Info: fourBitAdderTruth4.png  used on input line 239.
-(pdftex.def)             Requested size: 345.0pt x 244.6384pt.
+<GatesTruthTableCont2.png, id=7, 136.25906pt x 108.405pt>
+File: GatesTruthTableCont2.png Graphic file (type png)
+<use GatesTruthTableCont2.png>
+Package luatex.def Info: GatesTruthTableCont2.png  used on input line 134.
+(luatex.def)             Requested size: 345.0pt x 274.49208pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: fourBitAdderTruth4.png Graphic file (type png)
-<use fourBitAdderTruth4.png>
-Package pdftex.def Info: fourBitAdderTruth4.png  used on input line 248.
-(pdftex.def)             Requested size: 345.0pt x 244.6384pt.
+<GatesTruthTableCont3.png, id=8, 149.05687pt x 123.46124pt>
+File: GatesTruthTableCont3.png Graphic file (type png)
+<use GatesTruthTableCont3.png>
+Package luatex.def Info: GatesTruthTableCont3.png  used on input line 142.
+(luatex.def)             Requested size: 345.0pt x 285.8048pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fourBitAdderWaveForm.png, id=22, 1120.185pt x 180.675pt>
-File: fourBitAdderWaveForm.png Graphic file (type png)
-<use fourBitAdderWaveForm.png>
-Package pdftex.def Info: fourBitAdderWaveForm.png  used on input line 255.
-(pdftex.def)             Requested size: 345.0pt x 55.64476pt.
+<GatesTruthTableCont4.png, id=9, 152.82094pt x 132.495pt>
+File: GatesTruthTableCont4.png Graphic file (type png)
+<use GatesTruthTableCont4.png>
+Package luatex.def Info: GatesTruthTableCont4.png  used on input line 149.
+(luatex.def)             Requested size: 345.0pt x 299.12787pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<GatesTruthTableCont6.png, id=10, 148.30406pt x 124.21407pt>
+File: GatesTruthTableCont6.png Graphic file (type png)
+<use GatesTruthTableCont6.png>
+Package luatex.def Info: GatesTruthTableCont6.png  used on input line 156.
+(luatex.def)             Requested size: 345.0pt x 289.00127pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<GatesWaveForm.png, id=11, 785.18344pt x 427.5975pt>
+File: GatesWaveForm.png Graphic file (type png)
+<use GatesWaveForm.png>
+Package luatex.def Info: GatesWaveForm.png  used on input line 163.
+(luatex.def)             Requested size: 345.0pt x 187.88249pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<MultiplexerSource.png, id=12, 383.93437pt x 446.41782pt>
+File: MultiplexerSource.png Graphic file (type png)
+<use MultiplexerSource.png>
+Package luatex.def Info: MultiplexerSource.png  used on input line 173.
+(luatex.def)             Requested size: 345.0pt x 401.17288pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<MultiplexerTestSource.png, id=13, 426.09187pt x 596.2275pt>
+File: MultiplexerTestSource.png Graphic file (type png)
+<use MultiplexerTestSource.png>
+Package luatex.def Info: MultiplexerTestSource.png  used on input line 180.
+(luatex.def)             Requested size: 345.0pt x 482.78697pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<MultiplexerSchematic.png, id=14, 901.86937pt x 587.19376pt>
+File: MultiplexerSchematic.png Graphic file (type png)
+<use MultiplexerSchematic.png>
+Package luatex.def Info: MultiplexerSchematic.png  used on input line 187.
+(luatex.def)             Requested size: 345.0pt x 224.62328pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<MultiplexerTruthTable.png, id=15, 367.3725pt x 703.12688pt>
+File: MultiplexerTruthTable.png Graphic file (type png)
+<use MultiplexerTruthTable.png>
+Package luatex.def Info: MultiplexerTruthTable.png  used on input line 195.
+(luatex.def)             Requested size: 345.0pt x 660.34927pt.
+
+LaTeX Warning: Float too large for page by 144.40927pt on input line 198.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<MultiplexerTruthTableCont.png, id=16, 365.86688pt x 718.18312pt>
+File: MultiplexerTruthTableCont.png Graphic file (type png)
+<use MultiplexerTruthTableCont.png>
+Package luatex.def Info: MultiplexerTruthTableCont.png  used on input line 203.
+(luatex.def)             Requested size: 345.0pt x 677.26202pt.
+
+LaTeX Warning: Float too large for page by 161.32202pt on input line 206.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<MultiplexerWaveForm.png, id=17, 832.61063pt x 434.37282pt>
+File: MultiplexerWaveForm.png Graphic file (type png)
+<use MultiplexerWaveForm.png>
+Package luatex.def Info: MultiplexerWaveForm.png  used on input line 211.
+(luatex.def)             Requested size: 345.0pt x 179.98961pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DisplaySource.png, id=18, 407.27156pt x 444.91219pt>
+File: DisplaySource.png Graphic file (type png)
+<use DisplaySource.png>
+Package luatex.def Info: DisplaySource.png  used on input line 223.
+(luatex.def)             Requested size: 345.0pt x 376.90083pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DisplayTestSource.png, id=19, 421.575pt x 523.9575pt>
+File: DisplayTestSource.png Graphic file (type png)
+<use DisplayTestSource.png>
+Package luatex.def Info: DisplayTestSource.png  used on input line 230.
+(luatex.def)             Requested size: 345.0pt x 428.79248pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DisplaySchematic.png, id=20, 716.6775pt x 714.41907pt>
+File: DisplaySchematic.png Graphic file (type png)
+<use DisplaySchematic.png>
+Package luatex.def Info: DisplaySchematic.png  used on input line 237.
+(luatex.def)             Requested size: 345.0pt x 343.92017pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DisplayTruthTable.png, id=21, 160.34906pt x 82.80937pt>
+File: DisplayTruthTable.png Graphic file (type png)
+<use DisplayTruthTable.png>
+Package luatex.def Info: DisplayTruthTable.png  used on input line 245.
+(luatex.def)             Requested size: 345.0pt x 178.17438pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DisplayWaveForm.png, id=22, 968.86969pt x 548.0475pt>
+File: DisplayWaveForm.png Graphic file (type png)
+<use DisplayWaveForm.png>
+Package luatex.def Info: DisplayWaveForm.png  used on input line 253.
+(luatex.def)             Requested size: 345.0pt x 195.15614pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DecoderSource.png, id=23, 438.8897pt x 657.2053pt>
+File: DecoderSource.png Graphic file (type png)
+<use DecoderSource.png>
+Package luatex.def Info: DecoderSource.png  used on input line 266.
+(luatex.def)             Requested size: 345.0pt x 516.6193pt.
+
+LaTeX Warning: Float too large for page by 0.67929pt on input line 269.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DecoderTestSource.png, id=24, 495.35063pt x 673.76718pt>
+File: DecoderTestSource.png Graphic file (type png)
+<use DecoderTestSource.png>
+Package luatex.def Info: DecoderTestSource.png  used on input line 273.
+(luatex.def)             Requested size: 345.0pt x 469.25894pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DecoderSchematic.png, id=25, 989.94844pt x 715.17188pt>
+File: DecoderSchematic.png Graphic file (type png)
+<use DecoderSchematic.png>
+Package luatex.def Info: DecoderSchematic.png  used on input line 280.
+(luatex.def)             Requested size: 345.0pt x 249.23355pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DecoderTruthTable.png, id=26, 886.81313pt x 620.3175pt>
+File: DecoderTruthTable.png Graphic file (type png)
+<use DecoderTruthTable.png>
+Package luatex.def Info: DecoderTruthTable.png  used on input line 288.
+(luatex.def)             Requested size: 345.0pt x 241.32654pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DecoderWaveForm.png, id=27, 744.53156pt x 427.5975pt>
+File: DecoderWaveForm.png Graphic file (type png)
+<use DecoderWaveForm.png>
+Package luatex.def Info: DecoderWaveForm.png  used on input line 296.
+(luatex.def)             Requested size: 345.0pt x 198.14569pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -450,31 +578,36 @@ No file report.bbl.
 [1
 
 {C:/Users/Kenneth.Cox/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-[2 <./halfaddSource.png>] [3 <./halfAddTest.png>] [4 <./halfaddSchematic.png>]
-[5 <./halfaddTruthTable.png>] [6 <./halfaddTruthTable1.png> <./halfaddWaveForm.
-png>] [7 <./fullAdderSource.png>] [8 <./fullAdderTest.png>] [9 <./fullAdderSche
-matic.png> <./fullAdderTruthTable.png>] [10 <./fullAdderTruthTable1.png> <./ful
-lAdderWaveForm.png>] [11 <./fourBitAdderSource.png>] [12 <./fourBitAdderTest.pn
-g>] [13 <./fourBitAdderSchematic.png>] [14 <./fourBitAdderTruth.png>] [15 <./fo
-urBitAdderTruth1.png> <./fourBitAdderTruth2.png>] [16 <./fourBitAdderTruth3.png
-> <./fourBitAdderTruth4.png>] [17 <./fourBitAdderWaveForm.png>] (report.aux) ) 
-Here is how much of TeX's memory you used:
- 5662 strings out of 479697
- 122051 string characters out of 2876992
- 402395 words of memory out of 3000000
- 22704 multiletter control sequences out of 15000+200000
- 411327 words of font info for 57 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 79i,6n,85p,424b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program F
-iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr17.pfb>
-Output written on reportRedo.pdf (17 pages, 321611 bytes).
-PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+[2<./GatesSource.png>] [3<./GatesTestSource.png>] [4<./GatesSchematic.png>]
+[5<./GatesTruthTable.png>] [6<./GatesTruthTableCont.png>] [7<./GatesTruthTableCo
+nt1.png>] [8<./GatesTruthTableCont2.png>] [9<./GatesTruthTableCont3.png>]
+[10<./GatesTruthTableCont4.png>] [11<./GatesTruthTableCont6.png>] [12<./GatesWav
+eForm.png>] [13<./MultiplexerSource.png>] [14<./MultiplexerTestSource.png>]
+[15<./MultiplexerSchematic.png>] [16<./MultiplexerTruthTable.png>] [17<./Multipl
+exerTruthTableCont.png>] [18<./MultiplexerWaveForm.png>] [19<./DisplaySource.png
+>] [20<./DisplayTestSource.png>] [21<./DisplaySchematic.png>] [22<./DisplayTruth
+Table.png><./DisplayWaveForm.png>] [23<./DecoderSource.png>] [24<./DecoderTestSo
+urce.png>] [25<./DecoderSchematic.png>] [26<./DecoderTruthTable.png><./DecoderWa
+veForm.png>] (./report.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 5969 strings out of 478903
+ 100000,460012 words of node,token memory allocated
+ 529 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 61 glue_spec,
+ 6 attribute_list, 1 write nodes
+   avail lists: 2:1275,3:394,4:4,5:122,6:53,7:1962,8:2,9:457,10:3,11:86
+ 25291 multiletter control sequences out of 65536+200000
+ 64 fonts using 5542735 bytes
+ 79i,6n,81p,421b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
+<//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:
+/program files/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?/c:/progra
+m files/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program fi
+les/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><//?/c:/program files/
+miktex/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on report.pdf (26 pages, 534400 bytes).
+
+PDF statistics: 173 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
