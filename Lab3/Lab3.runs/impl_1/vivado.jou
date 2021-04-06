@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr  6 14:41:11 2021
+# Process ID: 25836
+# Current directory: C:/Repo/ECE238/Lab3/Lab3.runs/impl_1
+# Command line: vivado.exe -log Lab3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Lab3.tcl -notrace
+# Log file: C:/Repo/ECE238/Lab3/Lab3.runs/impl_1/Lab3.vdi
+# Journal file: C:/Repo/ECE238/Lab3/Lab3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Lab3.tcl -notrace
