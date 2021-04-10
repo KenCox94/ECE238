@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Repo/ECE238/D_Latch/D_Latch.srcs/constrs_1/new/const_1.xdc rfile:../../../D_Latch.srcs/constrs_1/new/const_1.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W5 [get_ports CLK]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V16 [get_ports D]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports Q]

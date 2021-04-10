@@ -1,0 +1,1 @@
+-wto "29dcaab416094ece8fd0d9d03057c76e" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "DFlipFlop_TB_behav" "xil_defaultlib.DFlipFlop_TB" -log "elaborate.log" 

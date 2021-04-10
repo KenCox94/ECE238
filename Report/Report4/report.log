@@ -1,0 +1,408 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.5)  9 APR 2021 21:26
+entering extended mode
+**./report.tex
+(report.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/mhchem\mhchem.sty
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+
+("C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-12-07 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count185
+\l__pdf_internal_box=\box47
+))
+("C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count186
+\calc@Bcount=\count187
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count188
+\calc@Cskip=\skip51
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen141
+))
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks16
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks17
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks18
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/chemgreek\chemgreek.sty
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+("C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count267
+\g__chemgreek_tmpa_int=\count268
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\l__mhchem_ce_distanceFromLastComma_int=\count269
+\__mhchem_arrow_extPgfLength_skip=\skip55
+\mhchem@minispace@tmp=\skip56
+\mhchem@minibackspace@tmp=\skip57
+\mhchem@bondwidth=\skip58
+\mhchem@bondheight=\skip59
+\mhchem@smallbondwidth@tmpA=\skip60
+\mhchem@smallbondwidth@tmpB=\skip61
+\mhchem@smallbondwidth=\skip62
+\mhchem@bondtmp@minussidebearingleft=\skip63
+\mhchem@bondtmp@minussidebearingright=\skip64
+\l__mhchem_option_version_int=\count270
+\mhchem@option@minusmathsidebearingleft=\dimen150
+\mhchem@option@minusmathsidebearingright=\dimen151
+\mhchem@option@minustextsidebearingleft=\dimen152
+\mhchem@option@minustextsidebearingright=\dimen153
+)
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box50
+\extrarowheight=\dimen155
+\NC@list=\toks20
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box51
+)
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen156
+\l__siunitx_tmp_int=\count271
+\l__siunitx_number_mantissa_length_int=\count272
+\l__siunitx_number_uncert_length_int=\count273
+\l__siunitx_round_int=\count274
+\l__siunitx_process_decimal_int=\count275
+\l__siunitx_process_uncertainty_int=\count276
+\l__siunitx_process_fixed_int=\count277
+\l__siunitx_process_integer_min_int=\count278
+\l__siunitx_process_precision_int=\count279
+\l__siunitx_group_min_int=\count280
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen157
+\l__siunitx_angle_unit_dim=\dimen158
+\l__siunitx_unit_int=\count281
+\l__siunitx_unit_denominator_int=\count282
+\l__siunitx_unit_numerator_int=\count283
+\l__siunitx_unit_prefix_int=\count284
+\l__siunitx_unit_prefix_base_int=\count285
+\l__siunitx_unit_prefix_gram_int=\count286
+\l__siunitx_number_product_int=\count287
+\c__siunitx_one_fill_skip=\skip67
+\l__siunitx_table_unit_align_skip=\skip68
+\l__siunitx_table_exponent_dim=\dimen159
+\l__siunitx_table_integer_dim=\dimen160
+\l__siunitx_table_mantissa_dim=\dimen161
+\l__siunitx_table_marker_dim=\dimen162
+\l__siunitx_table_result_dim=\dimen163
+\l__siunitx_table_uncert_dim=\dimen164
+\l__siunitx_table_fill_pre_dim=\dimen165
+\l__siunitx_table_fill_post_dim=\dimen166
+\l__siunitx_table_fill_mid_dim=\dimen167
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
+\l__siunitx_table_number_align_skip=\skip69
+\l__siunitx_table_text_align_skip=\skip70
+
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/translator\translator.st
+y
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)))
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip71
+\bibsep=\skip72
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count288
+)
+(report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+
+Package chemgreek Info: Activating mapping `default' on line 44.
+
+ ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count289
+\scratchdimen=\dimen170
+\scratchbox=\box59
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen171
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks23
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/siunitx\siunitx-abbrevia
+tions.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+(C:\Users\Kenneth.Cox\AppData\Roaming\MiKTeX\tex/latex/translator\translator-ba
+sic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+<DLatchSource.png, id=1, 439.6425pt x 448.67625pt>
+File: DLatchSource.png Graphic file (type png)
+<use DLatchSource.png>
+Package pdftex.def Info: DLatchSource.png  used on input line 89.
+(pdftex.def)             Requested size: 345.0pt x 352.1021pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DLatchSimSource.png, id=3, 507.39563pt x 550.30594pt>
+File: DLatchSimSource.png Graphic file (type png)
+<use DLatchSimSource.png>
+Package pdftex.def Info: DLatchSimSource.png  used on input line 96.
+(pdftex.def)             Requested size: 345.0pt x 374.1863pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DLatchDiagram.png, id=4, 891.33pt x 333.49594pt>
+File: DLatchDiagram.png Graphic file (type png)
+<use DLatchDiagram.png>
+Package pdftex.def Info: DLatchDiagram.png  used on input line 103.
+(pdftex.def)             Requested size: 345.0pt x 129.08076pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<DLatchWF.png, id=5, 1076.52188pt x 118.19156pt>
+File: DLatchWF.png Graphic file (type png)
+<use DLatchWF.png>
+Package pdftex.def Info: DLatchWF.png  used on input line 111.
+(pdftex.def)             Requested size: 345.0pt x 37.87798pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FlipFlopSource.png, id=6, 386.19281pt x 380.92313pt>
+File: FlipFlopSource.png Graphic file (type png)
+<use FlipFlopSource.png>
+Package pdftex.def Info: FlipFlopSource.png  used on input line 122.
+(pdftex.def)             Requested size: 345.0pt x 340.29341pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FlipFlopSimSource.png, id=7, 338.76563pt x 537.50812pt>
+File: FlipFlopSimSource.png Graphic file (type png)
+<use FlipFlopSimSource.png>
+Package pdftex.def Info: FlipFlopSimSource.png  used on input line 129.
+(pdftex.def)             Requested size: 345.0pt x 547.42265pt.
+
+LaTeX Warning: Float too large for page by 31.3671pt on input line 132.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FlipFlopSchematic.png, id=8, 942.52126pt x 375.65344pt>
+File: FlipFlopSchematic.png Graphic file (type png)
+<use FlipFlopSchematic.png>
+Package pdftex.def Info: FlipFlopSchematic.png  used on input line 136.
+(pdftex.def)             Requested size: 345.0pt x 137.505pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FlipFlopWaveForm.png, id=9, 843.15pt x 127.97812pt>
+File: FlipFlopWaveForm.png Graphic file (type png)
+<use FlipFlopWaveForm.png>
+Package pdftex.def Info: FlipFlopWaveForm.png  used on input line 143.
+(pdftex.def)             Requested size: 345.0pt x 52.3659pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<8BitRegisterSource.png, id=10, 354.57469pt x 470.50781pt>
+File: 8BitRegisterSource.png Graphic file (type png)
+<use 8BitRegisterSource.png>
+Package pdftex.def Info: 8BitRegisterSource.png  used on input line 155.
+(pdftex.def)             Requested size: 345.0pt x 457.81354pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<8BitRegisterSimSource.png, id=11, 352.31625pt x 610.53094pt>
+File: 8BitRegisterSimSource.png Graphic file (type png)
+<use 8BitRegisterSimSource.png>
+Package pdftex.def Info: 8BitRegisterSimSource.png  used on input line 162.
+(pdftex.def)             Requested size: 345.0pt x 597.85045pt.
+
+LaTeX Warning: Float too large for page by 81.79489pt on input line 165.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<8BitRegisterSchematic.png, id=12, 439.6425pt x 528.47438pt>
+File: 8BitRegisterSchematic.png Graphic file (type png)
+<use 8BitRegisterSchematic.png>
+Package pdftex.def Info: 8BitRegisterSchematic.png  used on input line 169.
+(pdftex.def)             Requested size: 345.0pt x 414.72427pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<8BitRegisterConstraints.png, id=13, 668.4975pt x 535.2497pt>
+File: 8BitRegisterConstraints.png Graphic file (type png)
+<use 8BitRegisterConstraints.png>
+Package pdftex.def Info: 8BitRegisterConstraints.png  used on input line 177.
+(pdftex.def)             Requested size: 345.0pt x 276.24063pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<8BitRegisterWaveForm.png, id=14, 585.68813pt x 387.69844pt>
+File: 8BitRegisterWaveForm.png Graphic file (type png)
+<use 8BitRegisterWaveForm.png>
+Package pdftex.def Info: 8BitRegisterWaveForm.png  used on input line 185.
+(pdftex.def)             Requested size: 345.0pt x 228.38513pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+No file report.bbl.
+[1
+
+{C:/Users/Kenneth.Cox/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+[2 <./DLatchSource.png>] [3 <./DLatchSimSource.png>] [4 <./DLatchDiagram.png> <
+./DLatchWF.png>] [5 <./FlipFlopSource.png>] [6 <./FlipFlopSimSource.png>]
+[7 <./FlipFlopSchematic.png> <./FlipFlopWaveForm.png>] [8 <./8BitRegisterSource
+.png>] [9 <./8BitRegisterSimSource.png>] [10 <./8BitRegisterSchematic.png>]
+[11 <./8BitRegisterConstraints.png>] [12 <./8BitRegisterWaveForm.png>]
+(report.aux) ) 
+Here is how much of TeX's memory you used:
+ 5613 strings out of 479697
+ 120879 string characters out of 2876992
+ 400404 words of memory out of 3000000
+ 22664 multiletter control sequences out of 15000+200000
+ 411327 words of font info for 57 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 79i,6n,85p,424b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr17.pfb>
+Output written on report.pdf (12 pages, 329198 bytes).
+PDF statistics:
+ 88 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
